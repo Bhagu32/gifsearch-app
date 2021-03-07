@@ -29,7 +29,7 @@ export class GipySearchComponent implements OnInit {
   }
   public showRate:any;
   public selectionModel:any;
-  name:any;
+  name:any="Mercedes-Benz";
   public data = [
       {
         id: 1,
