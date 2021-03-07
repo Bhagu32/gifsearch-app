@@ -22,26 +22,14 @@ body {
                          "footer";
   }
   
-  /* items */
-  
   .grid-1 div {
     color: white;
     font-size: 16px;
     padding: 10px;
     }
   
-  /* rwd */
-  
   @media only screen and (min-width: 500px) {
-    //    .search {
-    //     width: 100%;
-    //     position: relative;
-    //     display: flex;
-    // }
-    // .select.xp {
-    //     display: block;
-    // }
-  
+
       .grid-1 {
       max-width: 100%;
         
@@ -64,9 +52,7 @@ body {
        }
   
   }
-  
-  /* specific item styles */
-  
+
   .item-1 {
     background: orange;
     grid-area: header;
@@ -133,38 +119,8 @@ body {
                              "article sidebar";
         
       }
-    //   .search {
-    //     width: 35%;
-    //     position: relative;
-    //     display: flex;
-    // }
-    // .select.xp {
-    //     display: block;
-    // }
-
-
   }
-  .item-3 {
-    background: #30997a;
-    grid-area: sidebar;
-  }
-  .item-4 {
-    background: #6a478f;
-    grid-area: footer;
-  }
-  .item-5 {
-    background: #da6f2b;
-    grid-area: header;
-  }
-  .item-6 {
-    background: #3d8bb1;
-    grid-area: article;
-  }
-  .item-7 {
-    background: #e03f3f;
-    grid-area: sidebar;
-  }
-
+ 
 
 
   .grid-wrapper{
@@ -192,9 +148,6 @@ font-weight: 600;
 }
 .main-container{
     margin: 2rem;
-    // margin: 0 auto;
-    // max-width: 1170px;
-    // padding:2rem 1rem;
 }
 
 //search bart css
@@ -246,11 +199,6 @@ font-weight: 600;
   
   /*Resize the wrap to see the search bar change!*/
   .wrap{
-    // width: 30%;
-    // position: absolute;
-  
-    // left: 50%;
-    // transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;    
   }
@@ -269,12 +217,7 @@ select:focus
 
 // footer css
 /* REMOVE THIS, USE YOUR OWN  */
-html,body {
-    margin: 0;
-    padding: 0;
 
-    background-color: #070617;
-  }
   .footer-colgrid-2{
     max-width: 100%;
         
@@ -369,15 +312,7 @@ html,body {
       width: 1200px;
       margin: 0 auto;
     }
-    // .search {
-    //     width: 35%;
-    //     position: relative;
-    //     display: flex;
-    // }
-    // select.xp {
-      
-    //     display: block;
-    // }
+
   }
   @media only screen and (max-width: 1139px) {
     .contain .social {
